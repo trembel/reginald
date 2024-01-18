@@ -17,3 +17,10 @@ build:
 
 publish:
     python3 -m twine upload  dist/*
+
+docs:
+    mdbook build
+
+serve_docs:
+    mdbook serve --open
+

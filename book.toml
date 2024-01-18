@@ -1,0 +1,9 @@
+[book]
+authors = ["schilkp"]
+language = "en"
+multilingual = false
+src = "docs"
+title = "Reginald"
+
+[output.html]
+mathjax-support = true
